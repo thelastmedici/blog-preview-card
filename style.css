@@ -3,12 +3,68 @@ html{
 }
 
 .container{
-    width: 400px;
-    height: 600px;
+    width: 386px;
+    height: 514px;
     background-color: #f2f2f2;
     margin: 0 auto;
     margin-top: 200px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 16px;
+    font-family: "Figtree", sans-serif;
+    box-shadow: 0.7rem 0.7rem;
 }
+
+img{
+    border-radius: 15px;
+}
+.img-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 24px;
+}
+.about{
+    padding-left: 30px;
+    height:194px;
+    width: 338px;
+}
+h1{
+    font-size:1.5rem;
+    font-weight: 700;
+}
+p{
+    font-size: 1.1rem; 
+    color: hsl(0, 0%, 50%);
+}
+span{
+    background-color:hsl(47, 88%, 63%);
+    border-radius: 5px;
+    padding:4px 12px 4px 12px;
+    font-weight: bold;
+    color: black;
+}
+body > div > div.about > p:nth-child(2){
+    color: black;
+}
+.about-author{
+    display: flex;
+    width: 129;
+    height:32;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+.about-author img{
+    width: 32px;
+    height: 32px;
+    padding-left: 20px;
+}
+ div.about-author > p{
+    color: black;
+    font-weight: bold;
+    padding-left: 10px;
+    margin-top: 8px;    
+ }
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
